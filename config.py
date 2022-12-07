@@ -6,14 +6,14 @@
 #########
 # Files #
 #########
-verilog_source = "verilog_samples/reduction.v"
+verilog_source = "verilog_samples/ctr.v"
 
 #############
 # Registers #
 #############
 state_reg = "state"
-init_state = "WAIT"
-end_state = "DONEOUT"
+init_state = "0"
+end_state = "3"
 
 ###################
 # Operation Costs #
